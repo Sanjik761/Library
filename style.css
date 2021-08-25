@@ -1,5 +1,14 @@
 body {
-    width: 70%;
-    padding-top: 20px;
-    margin: auto;
-  }
+  width: 70%;
+  padding-top: 20px;
+  margin: auto;
+}
+
+input {
+  border: 1px solid green;
+  display: block;
+}
+
+input:focus {
+  outline: none;
+}
