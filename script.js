@@ -91,3 +91,10 @@ function addBookRecord(book, index) {
   row.appendChild(toggleReadCol);
   toggleReadCol.appendChild(toggleReadBtn);
 }
+
+function displayBooks() {
+  addTableHeading();
+  for (let i = 0; i < myLibrary.length; i += 1) {
+    addBookRecord(myLibrary[i], i);
+  }
+}
