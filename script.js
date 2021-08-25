@@ -98,3 +98,11 @@ function displayBooks() {
     addBookRecord(myLibrary[i], i);
   }
 }
+
+function addBookToLibrary(title, author, pages, status) {
+  const createBook = new Book(title, author, pages, status);
+  myLibrary.push(createBook);
+  displayBooks();
+}
+
+displayBooks();
