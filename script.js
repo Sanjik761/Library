@@ -33,7 +33,6 @@ function addTableHeading() {
   const colHeadStatus = document.createElement('th');
   colHeadStatus.textContent = 'Read Status';
   rowHead.appendChild(colHeadStatus);
-
   body.appendChild(table);
 }
 
@@ -104,7 +103,6 @@ function addBookToLibrary(title, author, pages, status) {
   myLibrary.push(createBook);
   displayBooks();
 }
-
 displayBooks();
 
 const newBook = document.querySelector('.btn');
